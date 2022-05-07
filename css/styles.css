@@ -9,7 +9,7 @@
 
 
 @import './components/_header.css';
-/* @import './components/_nav.css'; */
+@import './components/_nav.css';
 @import './components/_author.css';
 @import './components/_order.css';
 @import './components/_properties.css';
