@@ -1,7 +1,7 @@
 @import './_base.css';
 @import './_variables.css';
 
-@import './_variables.css';
+/* @import './_variables.css'; */
 
 @import './components/_logo.css';
 @import './components/_button.css';
