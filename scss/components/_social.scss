@@ -1,17 +1,22 @@
-  /* Базові для соцмереж */
-  .social__list{
+/* Базові для соцмереж */
+.social{
+
+  &__list{
     display: flex;
     justify-content: center;
-  
+
   }
-  .social__item{
+  &__item{
     width: 44px;
     height: 44px;
+
+    &:not(:last-child){
+      margin-right: 10px;
+    }
   }
-  .social__item:not(:last-child){
-    margin-right: 10px;
-  }
-  .social__link{
+  
+
+  &__link{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,43 +24,47 @@
     height: 100%;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.1);
-    color: var(--icon-social-color);
-  
-  }
-  .social__link:hover,
-  .social__link:focus {
-    background-color: var(--acsent-color);
-    color: var(--icon-hover-color);
-  }
+    color: $icon-social-color;
 
-  .social__link-team{
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+    &:hover,
+    &:focus {
+      background-color: $acsent-color;
+      color: $icon-hover-color;
+    }
   }
-  .social__icon-team{
-    fill: currentColor;
-  
-  }
+ 
+}
+.social__link--team{
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.social__icon--team{
+  fill: currentColor;
+
+}
 
 
-  .social-title{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.1;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: var(--border-color);
-    margin-bottom: 20px;
-  }
-  
-  .footer__social{
+.social-title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $border-color;
+  margin-bottom: 20px;
+}
+
+.footer__social{
   margin-right: 93px;
 }
 
-  
-  .social__link-footer{
-    fill: var(--icon-social-footer-color);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
+
+.social__link--footer{
+  fill: $icon-social-footer-color;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sb-social{
+  margin-bottom: 20px;
+}

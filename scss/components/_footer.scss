@@ -1,18 +1,19 @@
         /* Footer */
 .footer {
-  background-color: var(--footer-background);
+  background-color: $footer-background;
   padding-top: 60px;
   padding-bottom: 60px;
+
+    .footer__address{
+      width: 231px;
+      margin-right: 70px;
+    }
 }
 .footer-container{
   display: flex;
   align-items: baseline;
 }
 
-.footer__address{
-  width: 231px;
-  margin-right: 70px;
-}
 
 
 
