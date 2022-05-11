@@ -1,12 +1,12 @@
-$body-background: #ffffff;
-$primary-color: #757575;
-$title-color: #212121;
+// $body-background: #ffffff;
+// $primary-color: #757575;
+// $title-color: #212121;
 
 
 
 body {
-  background-color: $body-background;
-  color: $primary-color;
+  background-color: #ffffff;
+  color: #757575;
   font-family: 'Roboto', sans-serif;
   }
 
@@ -50,6 +50,6 @@ img{
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: $title-color;
+  color: #212121;
   margin-bottom: 50px;
   }

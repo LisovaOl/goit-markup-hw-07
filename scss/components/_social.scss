@@ -1,12 +1,12 @@
 /* Базові для соцмереж */
 .social{
 
-  &__list{
+  .social__list{
     display: flex;
     justify-content: center;
 
   }
-  &__item{
+  .social__item{
     width: 44px;
     height: 44px;
 
@@ -16,7 +16,7 @@
   }
   
 
-  &__link{
+  .social__link{
     display: flex;
     justify-content: center;
     align-items: center;

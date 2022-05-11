@@ -1,14 +1,14 @@
 .our-team{
   background-color: $team-background;
 
-    &__list{
+    .our-team__list{
       display: flex;
       text-align: center;
       justify-content: space-between;
 
     }
 
-    &__item{
+    .our-team__item{
       width: 270px;
       box-shadow: 
       0px 1px 3px rgba(0, 0, 0, 0.12), 
@@ -18,14 +18,14 @@
 
     }
 
-    &__post{
+    .our-team__post{
       padding-top: 30px;
       padding-bottom: 30px;
       margin-bottom: 0;
       
     }
 
-    &__name{
+    .our-team__name{
       font-weight: 500;
       font-size: 16px;
       line-height: 1.2;
@@ -35,7 +35,7 @@
 
     }
 
-    &__text{
+    .our-team__text{
       font-size: 16px;
       line-height: 1.2;
       letter-spacing: 0.03em;
