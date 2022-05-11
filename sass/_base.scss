@@ -21,6 +21,14 @@ body {
 .section{
   padding: 94px 0;
   }
+
+.section--no-padding-top{
+  padding-top: 0;
+}
+.section--team-background{
+  background-color: #F5F4FA;
+}
+
   
 ul{
   list-style: none;
@@ -44,7 +52,7 @@ img{
 
   
   /* Базові H2 */
-.title-h2{
+.section__title{
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;

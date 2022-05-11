@@ -1,7 +1,4 @@
-.our-team{
-  background-color: $team-background;
-
-    .our-team__list{
+    .our-team{
       display: flex;
       text-align: center;
       justify-content: space-between;
@@ -25,7 +22,7 @@
       
     }
 
-    .our-team__name{
+    .our-team__title{
       font-weight: 500;
       font-size: 16px;
       line-height: 1.2;
@@ -44,5 +41,5 @@
 
     }
 
-}
+
 

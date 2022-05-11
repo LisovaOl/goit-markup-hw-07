@@ -1,8 +1,5 @@
-.nav{
-display: flex;
-align-items: center;
 
-.nav__list{
+.nav{
   display: flex;
   }
 
@@ -26,13 +23,13 @@ align-items: center;
       }
     }
 
-  &__item:not(:first-child){
+.nav__item:not(:first-child){
   margin-left: 50px;
   }
 
-}
 
-.nav__current{
+
+.nav__link--current{
   color: $acsent-color;
 
     &::after{

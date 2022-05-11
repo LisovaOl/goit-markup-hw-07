@@ -8,12 +8,18 @@
         {
             "format": "expanded",
             "extensionName": ".css",
-            "savePath": "/css"
+            "savePath": "/css",
+            "savePathSegmentKeys": null,
+            "savePathReplaceSegmentsWith": null
+      
         },
         {
             "extensionName": ".min.css",
             "format": "compressed",
-            "savePath": "/css"
+            "savePath": "/css",
+            "savePathSegmentKeys": null,
+            "savePathReplaceSegmentsWith": null
+      
         }
     ],
     "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],

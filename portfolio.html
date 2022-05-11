@@ -8,33 +8,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
     rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="./sass/main.min.css">
 </head>
 <body>
                                 <!-- навигация -->
 
     <header class="header">
-        <div class="container nav">
+        <div class="container header__container">
                 <a href="#" class="logo logo--header"><span class="logo-web">Web</span>Studio</a>
-            <nav class="nav">
-                <ul class="nav__list">
+            <nav>
+                <ul class="nav">
                     <li class="nav__item"><a class="nav__link" href="index.html" >Студия</a></li>
-                    <li class="nav__item"><a class="nav__link nav__current" href="portfolio.html" >Портфолио</a></li>
+                    <li class="nav__item"><a class="nav__link nav__link--current" href="portfolio.html" >Портфолио</a></li>
                     <li class="nav__item"><a class="nav__link" href="#" >Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="author">
-                <li class="author__item">
-                    <a class="author__link" href="mailto:info@devstudio.com">
-                        <svg class="author__icon" width=16px height="12px">
+            <ul class="contacts">
+                <li class="contacts__item">
+                    <a class="contacts__link" href="mailto:info@devstudio.com">
+                        <svg class="contacts__icon" width=16px height="12px">
                             <use href="./images/icons/icons.svg#icon-mail"></use>
                         </svg>
                         info@devstudio.com 
                     </a>
                 </li>
-                <li class="author__item">
-                    <a class="author__link" href="tel:+380961111111">
-                    <svg class="author__icon" width=10px height="16px">
+                <li class="contacts__item">
+                    <a class="contacts__link" href="tel:+380961111111">
+                    <svg class="contacts__icon" width=10px height="16px">
                         <use href="./images/icons/icons.svg#icon-phone"></use>
                     </svg>
                     +38 096 111 11 11</a>
@@ -47,7 +47,7 @@
                             <!-- Кнопки фильтра -->
 
         <section class="section">
-            <div class="container">
+            <div class="container order__container">
                 <h1 class="visually-hidden">Фильтр</h1>
                 <ul class="filtr">
                     <li class="filtr__item"><button type="button" class="filtr__btn">Все</button></li>
@@ -234,7 +234,7 @@
             </div>
             <div class="footer__social">
                 <h3 class="social-title">Присоединяйтесь</h3>
-                <ul class="social__list">
+                <ul class="social">
                     <li class="social__item">
                         <a href="" class="social__link social__link--footer">
                             <svg class="social__icon" width="20px" height="20px">
